@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#While loops. show infinite and how the counter prevents it
+# || is or && is and
+

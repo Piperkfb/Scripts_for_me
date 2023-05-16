@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#Declare x is a number. 0, 1, or other
+x=5
+
+if [ $x = 0 ]
+then
+	echo "$x"
+	echo "x is 0"
+
+elif [ $x = 1 ]
+then
+	echo "$x"
+	echo "x is 1"
+fi
+
+if [ $x -gt 0 ] #add and is not zero to make else true
+then
+	echo "Ack! This happens with 1"
+
+else
+	echo "I am less than zero!"
+fi
