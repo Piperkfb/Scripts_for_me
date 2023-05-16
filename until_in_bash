@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# || is or && is and
+x=1
+until [ $x == 5 ] 
+do
+	echo "$x"
+
+	if [ $x -gt 5 ]
+	then
+	echo "You've gone too far, return to reality"
+	fi
+	x=$(( x+1 ))
+	sleep 1 #wait a second before next entry
+done

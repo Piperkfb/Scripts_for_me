@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+for x in {1..100}
+do
+	echo "$x"
+	echo "I go up by one"
+	sleep 1
+done
