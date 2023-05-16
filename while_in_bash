@@ -2,6 +2,14 @@
 #While loops. show infinite and how the counter prevents it
 # || is or && is and
 x=1
-while [ x -le 5 ]
-then
+while [ $x -ge 0 ] #change this to less than 5 to show it stopping
+do
+	echo "$x"
 
+	if [ $x -gt 5 ]
+	then
+	echo "You've gone too far, return to reality"
+	fi
+	x=$(( x+1 ))
+	sleep 1 #wait a second before next entry
+done
